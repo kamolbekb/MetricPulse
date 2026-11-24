@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+backend/.venv/
+backend/__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment & local DB
+.env
+.env.local
+backend/.env
+frontend/.env.local
+backend/*.db
+backend/*.sqlite3
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
